@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.dragarea {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+}
+.dragover {
+  border: 2px solid rgb(0, 225, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 196, 16, 0.482);
+}
+.reset {
+  border: 1px dotted black;
+}
+.dragitem {
+  width: auto;
+  max-height: 100px;
+  background-color: brown;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.drag {
+  display: none;
+}
+.drag-start {
+  border: 2px solid rgb(0, 157, 225);
+  box-shadow: 0 4px 8px 0 rgba(0, 157, 225, 0.482);
+}
